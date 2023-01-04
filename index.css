@@ -55,3 +55,20 @@
   position: absolute;
   width: 9px;
 }
+
+.eyes{
+  height: 5px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: white;
+  display:inline-block;
+}
+
+.pupil{
+  background-color: black;
+  height: 2px;
+  width: 2px;
+  margin: auto;
+  padding-top: 2px;
+
+}
