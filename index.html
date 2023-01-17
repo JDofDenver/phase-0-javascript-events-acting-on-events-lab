@@ -8,15 +8,31 @@
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-  <div id="game">
-    <div id="dodger" style="bottom: 0px; left: 180px;">
-    <div class = "eyes">
-      <div class = "pupil"></div>
+  <button class = "button" id="up">Move up</button>
+  
+  
+  <div class="view">
+    <div class="leftDiv">
+      <button class="button" id="left">Move left</button>
     </div>
-    <div class ="eyes">
-      <div class = "pupil"></div>
+    <div id="game">
+     <div id="dodger" style="bottom: 0px; left: 180px;">
+        <div class = "eyes">
+         <div class = "pupil"></div>
+        </div>
+        <div class ="eyes">
+         <div class = "pupil"></div>
+        </div>
+      </div>
+    </div>
+    <div class="rightDiv">
+      <button class="button" id="right">Move right</button>
     </div>
   </div>
+  <div class="bottomDiv">
+    <button class="button" id="down">Move down</button>
+  </div>
+  
   <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

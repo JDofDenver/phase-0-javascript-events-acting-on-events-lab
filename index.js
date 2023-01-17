@@ -1,4 +1,15 @@
+
+
 const dodger = document.getElementById("dodger");
+const up = document.getElementById("up");
+const down = document.getElementById("down");
+const left = document.getElementById("left");
+const right = document.getElementById("right");
+
+up.addEventListener("click",moveDodgerUp);
+down.addEventListener("click",moveDodgerDown);
+left.addEventListener("click",moveDodgerLeft);
+right.addEventListener("click",moveDodgerRight);
 
 dodger.style.backgroundColor = "#FF69B4";
 

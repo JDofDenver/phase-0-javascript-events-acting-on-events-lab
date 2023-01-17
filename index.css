@@ -12,9 +12,11 @@
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
   text-align: center;
-  width: 400px;
+  width: 33%;
+  float:left;
+  position: relative;
+  
 }
 
 #start {
@@ -71,4 +73,65 @@
   margin: auto;
   padding-top: 2px;
 
+}
+
+.button{
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 30px;
+  color: limegreen;
+}
+
+#up{
+    width: 25%;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+#down{
+  width: 25%;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+#left{
+  width: 100%;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-top:150px;
+}
+
+#right{
+  width: 100%;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-top:150px;
+}
+
+.bottomDiv{
+  display:block;
+  width:100%;
+}
+
+.rightDiv{
+  height:400px;
+  width:33%;
+  float:right;
+  display:block;
+}
+.leftDiv{
+  height:400px;
+  width:33%;
+  float:left;
+  display: block;
+}
+
+.view{
+  height:500px;
+  width:100%;
+  display:block;
 }
